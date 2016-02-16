@@ -1,0 +1,18 @@
+// import normalize
+@import "../../vendor/normalize/_normalize";
+
+// import bourbon and neat (grid system)
+@import "../../vendor/bourbon/_bourbon";
+@import "../../vendor/neat/_neat";
+// import grid settings
+@import "_grid-settings";
+
+// contains colours, various mixins and fairy dust
+@import "_variables";
+
+@import "_header";
+@import "_body";
+@import "_companies-list";
+
+// contains page load animation
+@import "_intro";

@@ -1,0 +1,47 @@
+.companies__list {
+	display: table;
+	margin: 40px 0 0 0;
+	padding: 0;
+	width: 100%;
+}
+
+.companies__list__company {
+	display: table-cell;;
+	position: relative;
+	margin: 0;
+	height: 200px;
+}
+
+.companies__list__company__link {
+	display: inline-block;
+	width: 100%;
+}
+
+.companies__list__company__logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 50%;
+	max-width: 70%;
+}
+
+@include media($tablet) {
+	.companies__list {
+		margin-top: 80px;
+		display: block;
+	}
+
+	.companies__list__company {
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: 30px 0;
+	}
+	.companies__list__company__logo {
+		transform: translate(-50%, 0);
+		position: relative;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}

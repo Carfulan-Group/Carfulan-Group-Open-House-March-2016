@@ -1,0 +1,25 @@
+$dark-grey: #2a2a2a;
+$blue: #3FB1EA;
+
+%vertical-padding-small {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+%vertical-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+%vertical-padding-large {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+%tran {
+	transition:0.3s;
+}
+
+%tran-long {
+	transition:0.8s;
+}
