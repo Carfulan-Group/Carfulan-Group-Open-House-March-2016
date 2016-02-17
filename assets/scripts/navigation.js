@@ -3,7 +3,7 @@ function renderPage ( page )
 	require(["jquery", "tweenmax", "content-aside"], function () {
 
 		function fadeOut() {
-			TweenMax.to( ".ajax" , 0.25 , {
+			TweenMax.to( ".ajax" , 1 , {
 				opacity: 0,
 				onComplete: loadContent
 			} );
@@ -15,7 +15,7 @@ function renderPage ( page )
 		};
 
 		function fadeIn () {
-			TweenMax.to( ".ajax" , 0.25 , {
+			TweenMax.to( ".ajax" , 1 , {
 				opacity: 1,
 				onComplete: contentAside
 			} );

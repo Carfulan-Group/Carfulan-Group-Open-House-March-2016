@@ -24,7 +24,7 @@ require( [ "tweenmax" , "menu" ] , function ()
 
 	function titleStops ()
 	{
-		TweenMax.to( ".intro__title .intro__title--stop" , 2 , {
+		TweenMax.to( ".intro__title .intro__title--stop" , 1 , {
 			opacity: 1 ,
 			ease: Elastic.easeInOut ,
 			onComplete: introAway
@@ -43,7 +43,6 @@ require( [ "tweenmax" , "menu" ] , function ()
 		TweenMax.to( ".intro" , 0.5 , {
 			top: - 999 ,
 			ease: Power2.easeIn ,
-			delay: 0.5 ,
 			onComplete: contentIn
 		} );
 	}
