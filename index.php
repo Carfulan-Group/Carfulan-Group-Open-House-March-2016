@@ -37,12 +37,18 @@ include 'partials/header.php';
 			<span onClick="renderPage('ogp')" class="content__aside__item__link">
 				<img src="/innovation-showcase/assets/images/ogp-logo.png" alt="OGP UK Logo"
 				class="content__aside__item__image"/>
+				<p class="content__aside__item__text">
+					OGP
+				</p>
 			</span>
 		</div>
 		<div class="content__aside__item">
 			<span onClick="renderPage('sys')" class="content__aside__item__link">
 				<img src="/innovation-showcase/assets/images/sys-logo.png" alt="SYS Systems Logo"
 				class="content__aside__item__image"/>
+				<p class="content__aside__item__text">
+					SYS
+				</p>
 			</span>
 		</div>
 
@@ -50,6 +56,9 @@ include 'partials/header.php';
 			<span onClick="renderPage('zoller')" class="content__aside__item__link">
 				<img src="/innovation-showcase/assets/images/zoller-uk-logo.png" alt="Zoller UK Logo"
 				class="content__aside__item__image"/>
+				<p class="content__aside__item__text">
+					Zoller
+				</p>
 			</span>
 		</div>
 
@@ -57,6 +66,9 @@ include 'partials/header.php';
 			<span onClick="renderPage('vicivision')" class="content__aside__item__link">
 				<img src="/innovation-showcase/assets/images/vicivision-logo.png" alt="VICIVISION Logo"
 				class="content__aside__item__image"/>
+				<p class="content__aside__item__text">
+					VICIVISION
+				</p>
 			</span>
 		</div>
 
@@ -64,6 +76,9 @@ include 'partials/header.php';
 			<span onClick="renderPage('eam')" class="content__aside__item__link">
 				<img src="/innovation-showcase/assets/images/eam-logo.png" alt="EAM Ltd Logo"
 				class="content__aside__item__image"/>
+				<p class="content__aside__item__text">
+					EAM
+				</p>
 			</span>
 		</div>
 	</div>

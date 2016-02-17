@@ -3,7 +3,7 @@ function asideOpen () {
         asideWidth = aside.clientWidth ,
         newPaddingRight = asideWidth + 15;
 
-    TweenMax.to( aside , 0.5 , {
+    TweenMax.to( aside , 0.3 , {
         right:15
     } );
 
@@ -13,7 +13,7 @@ function asideOpen () {
 function asideClose () {
     var aside = document.querySelector(".content__aside");
 
-    TweenMax.to( aside , 0.5 , {
+    TweenMax.to( aside , 0.3 , {
         right: -400
     } );
 
@@ -24,11 +24,15 @@ function contentAside () {
     var aside = document.querySelector(".content__aside"),
         asideWindowWidth = window.innerWidth;
 
-    if ( asideWindowWidth > 1000 ) {
-        asideOpen ();
-    }
-    else {
-        asideClose();
+    if ( !aside ){
+        document.body.style.paddingRight = 0;
+    } else {
+        if ( asideWindowWidth > 1000 ) {
+            asideOpen ();
+        }
+        else {
+            asideClose();
+        }
     }
 }
 

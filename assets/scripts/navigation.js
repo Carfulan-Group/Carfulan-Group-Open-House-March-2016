@@ -1,9 +1,9 @@
 function renderPage ( page )
 {
-	require(["jquery", "tweenmax", "content-aside"], function () {
+	require(["jquery", "tweenmax", "content-aside", "intro"], function () {
 
 		function fadeOut() {
-			TweenMax.to( ".ajax" , 1 , {
+			TweenMax.to( ".ajax-container" , 0.3 , {
 				opacity: 0,
 				onComplete: loadContent
 			} );
@@ -15,10 +15,16 @@ function renderPage ( page )
 		};
 
 		function fadeIn () {
-			TweenMax.to( ".ajax" , 1 , {
+			TweenMax.to( ".ajax-container" , 0.3 , {
 				opacity: 1,
 				onComplete: contentAside
 			} );
+
+			var windowWidth = window.innerWidth;
+
+			if ( windowWidth < 1100 ) {
+				menuClose();
+			}
 		};
 
 		fadeOut();
