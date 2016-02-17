@@ -38,8 +38,5 @@ burger.onclick = function ()
 	}
 };
 
-window.onresize = function ()
-{
-	menuClose();
-};
 
+// menu resize function in intro js

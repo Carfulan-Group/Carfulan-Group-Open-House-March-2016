@@ -9,14 +9,14 @@ require( [ "tweenmax" , "menu" ] , function ()
 			menuOpen();
 
 			var menuWidth = document.querySelector( ".nav" ).clientWidth ,
-				newPadding = menuWidth + 45;
+				newPadding = menuWidth;
 
 			document.body.style.paddingLeft = newPadding + "px";
 		}
 		else {
 			menuClose();
 
-			document.body.style.paddingLeft = "45px";
+			document.body.style.paddingLeft = 0;
 		}
 	}
 
@@ -43,27 +43,26 @@ require( [ "tweenmax" , "menu" ] , function ()
 		TweenMax.to( ".intro" , 0.5 , {
 			top: - 999 ,
 			ease: Power2.easeIn ,
-			delay: 1 ,
+			delay: 0.5 ,
 			onComplete: contentIn
 		} );
 	}
 
 	function contentIn ()
 	{
-		TweenMax.to( ".content" , 0.5 , {
-			top: 0 ,
-			ease: Elastic.linear
-		} );
+		require(["content-aside"], function () {
+			TweenMax.to( ".content" , 0.5 , {
+				top: 0 ,
+				ease: Elastic.linear,
+				onComplete: contentAside
+			} );
+			document.body.classList.add("background");
+		});
 
 		document.querySelector( "html" ).style.overflowY = "scroll";
 
 		setMenu();
 	}
-
-	window.onresize = function ()
-	{
-		setMenu();
-	};
 
 	TweenMax.to( introImage , 2 , {
 		top: 0 ,
@@ -71,4 +70,7 @@ require( [ "tweenmax" , "menu" ] , function ()
 		onComplete: titleText
 	} );
 
+	window.onresize = function () {
+		setMenu();
+	}
 } );

@@ -22,12 +22,13 @@
 </section>
 
 <div class="content">
-	<header>
+
 		<div class="nav__burger">
 			<span class="nav__burger__line"></span>
 			<span class="nav__burger__line"></span>
 			<span class="nav__burger__line nav__burger__line--last"></span>
 		</div>
+
 		<header class="nav">
 			<span title="Home" class="nav__logo__link">
 				<img onclick="renderPage('index')" class="nav__logo__image" src="assets/images/carfulan-group-logo-inverse.png"
@@ -51,4 +52,7 @@
 					<span class="nav__list__item__link" onclick="renderPage('eam')">EAM Limited</span>
 				</li>
 			</ul>
-	</header>
+		</header>
+
+<div class="ajax-container">
+	<div class="ajax">

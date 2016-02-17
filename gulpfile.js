@@ -8,14 +8,14 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload');
 
 // Concat and minify Javascript
-// gulp.task('scripts',function() {
-// 	return gulp.src(['vendor/bootstrap-sass-3.3.5/assets/scripts/bootstrap.min.js','vendor/layzr/_layzr.js','assets/scripts/_*.js'])
+gulp.task('scripts',function() {
+	return gulp.src(['assets/scripts/*.js'])
 // 	.pipe(plumb())
 //     .pipe(concat('build.js', {newLine: ';'}))
 // 	.pipe(uglify())
 //     .pipe(gulp.dest('assets/scripts/'))
-// 	.pipe(livereload());
-// });
+	.pipe(livereload());
+});
 
 
 // Compile and minify SASS
@@ -52,7 +52,7 @@ gulp.task('default', function() {
 	livereload.listen();
 	gulp.watch('assets/styles/*.scss', ['sass']);
 	gulp.watch('assets/styles/*.css', ['prefixer']);
-	// gulp.watch('assets/scripts/_*.js', ['scripts']);
+	gulp.watch('assets/scripts/*.js', ['scripts']);
 	gulp.watch('*.php', ['phprefresh']);
 	gulp.watch('partials/*.php', ['phprefresh']);
 });

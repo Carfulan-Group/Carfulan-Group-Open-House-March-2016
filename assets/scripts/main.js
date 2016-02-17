@@ -7,8 +7,10 @@ require.config( {
 	}
 } );
 
+
 require( [ "tweenmax" ] , function ()
 {
+	require( [ "content-aside" ] );
 	require( [ "intro" ] );
 	require( [ "menu" ] );
 } );

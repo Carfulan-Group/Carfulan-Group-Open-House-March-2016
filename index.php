@@ -30,40 +30,41 @@ include 'partials/header.php';
 		<p>The event is free to visitors, and doors open across the two days at 9:00 am -
 			closing at 4:30 pm.</p>
 
-		<div class="companies__list">
-			<div class="companies__list__company">
-				<span onClick="renderPage('ogp')" class="companies__list__company__link">
-					<img src="/innovation-showcase/assets/images/ogp-logo.png" alt="OGP UK Logo"
-						 class="companies__list__company__logo"/>
-				</span>
-			</div>
-			<div class="companies__list__company">
-				<span onClick="renderPage('sys')" class="companies__list__company__link">
-					<img src="/innovation-showcase/assets/images/sys-logo.png" alt="SYS Systems Logo"
-						 class="companies__list__company__logo"/>
-				</span>
-			</div>
+	</div>
 
-			<div class="companies__list__company">
-				<span onClick="renderPage('zoller')" class="companies__list__company__link">
-					<img src="/innovation-showcase/assets/images/zoller-uk-logo.png" alt="Zoller UK Logo"
-						 class="companies__list__company__logo"/>
-				</span>
-			</div>
+	<div class="content__aside">
+		<div class="content__aside__item">
+			<span onClick="renderPage('ogp')" class="content__aside__item__link">
+				<img src="/innovation-showcase/assets/images/ogp-logo.png" alt="OGP UK Logo"
+				class="content__aside__item__image"/>
+			</span>
+		</div>
+		<div class="content__aside__item">
+			<span onClick="renderPage('sys')" class="content__aside__item__link">
+				<img src="/innovation-showcase/assets/images/sys-logo.png" alt="SYS Systems Logo"
+				class="content__aside__item__image"/>
+			</span>
+		</div>
 
-			<div class="companies__list__company">
-				<span onClick="renderPage('vicivision')" class="companies__list__company__link">
-					<img src="/innovation-showcase/assets/images/vicivision-logo.png" alt="VICIVISION Logo"
-						 class="companies__list__company__logo"/>
-				</span>
-			</div>
+		<div class="content__aside__item">
+			<span onClick="renderPage('zoller')" class="content__aside__item__link">
+				<img src="/innovation-showcase/assets/images/zoller-uk-logo.png" alt="Zoller UK Logo"
+				class="content__aside__item__image"/>
+			</span>
+		</div>
 
-			<div class="companies__list__company">
-				<span onClick="renderPage('eam')" class="companies__list__company__link">
-					<img src="/innovation-showcase/assets/images/eam-logo.png" alt="EAM Ltd Logo"
-						 class="companies__list__company__logo"/>
-				</span>
-			</div>
+		<div class="content__aside__item">
+			<span onClick="renderPage('vicivision')" class="content__aside__item__link">
+				<img src="/innovation-showcase/assets/images/vicivision-logo.png" alt="VICIVISION Logo"
+				class="content__aside__item__image"/>
+			</span>
+		</div>
+
+		<div class="content__aside__item content__aside__item--last">
+			<span onClick="renderPage('eam')" class="content__aside__item__link">
+				<img src="/innovation-showcase/assets/images/eam-logo.png" alt="EAM Ltd Logo"
+				class="content__aside__item__image"/>
+			</span>
 		</div>
 	</div>
 

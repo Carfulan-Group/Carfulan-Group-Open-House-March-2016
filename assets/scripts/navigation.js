@@ -1,18 +1,27 @@
 function renderPage ( page )
 {
-require(["jquery", "tweenmax"], function () {
-	// TweenMax.to( ".content__container" , 1 , {
-	// 	opacity: 0 ,
-	// 	top: "-100vh",
-	// 	ease: Elastic.easeInOut
-	// } );
+	require(["jquery", "tweenmax", "content-aside"], function () {
 
-	jQuery('.content__container').load(page + ".php .content__container");
+		function fadeOut() {
+			TweenMax.to( ".ajax" , 0.25 , {
+				opacity: 0,
+				onComplete: loadContent
+			} );
+		};
 
-	// TweenMax.to( ".content__container" , 1 , {
-	// 	opacity: 1 ,
-	// 	top: 0,
-	// 	ease: Elastic.easeInOut
-	// } );
-});
+		function loadContent (){
+			jQuery('.ajax-container').load(page + ".php .ajax");
+			fadeIn();
+		};
+
+		function fadeIn () {
+			TweenMax.to( ".ajax" , 0.25 , {
+				opacity: 1,
+				onComplete: contentAside
+			} );
+		};
+
+		fadeOut();
+
+	});
 }
