@@ -19,7 +19,6 @@
 	<meta name="msapplication-TileColor" content="#009fe3">
 	<meta name="theme-color" content="#009fe3">
 	<!-- favicons -->
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 <div class="body__border--top"></div>
@@ -27,7 +26,7 @@
 <div class="body__border--bottom"></div>
 <div class="body__border--left"></div>
 <section class="intro">
-	<img class="intro__image" src="assets/images/event-logo-no-text.png" height="351" width="319"
+	<img class="intro__image" src="assets/images/event-logo-no-text.jpg" height="351" width="319"
 		 alt="Carfulan Group Open House Logo">
 	<h1 class="intro__title"><span class="intro__title--text">Precision</span><span
 		class="intro__title--stop"> . </span><span class="intro__title--text">Performance</span><span

@@ -12,6 +12,8 @@ include 'partials/header.php';
     <p>
         VICIVISION will be displaying the MTL1 which is an optical measuring machine for turned and ground parts, capable of taking measurements on a piece profile in a matter of seconds on the shop floor. Carrying out all measurements with a single tool means saving time, manpower and improving the accuracy of the control.
     </p>
+
+    <a class="signup__button" href="mailto:sarahg@carfulan.com?BCC=chrisf@carfulan.com&Subject=Innovation%20Showcase%20Signup&Body=Name%3A%20%0A%0ACompany%3A%20%0A%0AJob%20Title%3A%20%0A%0ALunch%3A%20Yes%20/%20No%20%28Delete%20Appropriate%29%20%0A%0ADay%3A%2015th%20March%20%20/%2016th%20March%20%20%28Delete%20Appropriate%29%0A%0ATelephone%20Number%3A%20%20%0A%0AAny%20other%20attendees%3A%20%0A">Register Here</a>
 </div>
 
 <div class="content__aside">
