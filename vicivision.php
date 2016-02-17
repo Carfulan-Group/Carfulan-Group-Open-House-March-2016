@@ -14,6 +14,44 @@ include 'partials/header.php';
     </p>
 </div>
 
+<div class="content__aside">
+    <div class="content__aside__item">
+        <a href="http://www.vicivision.com/optical-measuring-machines-for-turned-parts/mtl-1/" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/mtl1.jpg" alt="MTL 1 Shop Floor Measuring Machine"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                MTL 1
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item">
+        <a href="http://www.vicivision.com/wp-content/uploads/2015/02/CAMSHAFT.pdf" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/camshaft.jpg" alt="Camshaft Measurement"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Camshaft Measurement
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item">
+        <a href="http://www.vicivision.com/wp-content/uploads/2015/04/VALVE.pdf" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/valves.jpg" alt="Valve Measurement"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Valve Measurement
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item content__aside__item--last">
+        <a href="http://www.vicivision.com/wp-content/uploads/2015/04/Turbine_ENG.pdf" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/turbines.jpg" alt="Turbine Measurement"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Turbine Measurement
+            </p>
+        </a>
+    </div>
+</div>
 <?php
 include 'partials/footer.php';
 ?>

@@ -17,6 +17,45 @@ include 'partials/header.php';
     </p>
 </div>
 
+<div class="content__aside">
+    <div class="content__aside__item">
+        <a href="http://www.sys-uk.com/3d-printers/" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/objet1000plus.jpg" alt="Stratasys 3D Printers"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Stratasys 3D Printers
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item">
+        <a href="http://www.sys-uk.com/rapid-prototyping/" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/rapid-prototyping.png" alt="Rapid Prototyping"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Rapid Prototyping
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item">
+        <a href="http://www.sys-uk.com/additive-manufacturing/" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/additive-manufacturing.png" alt="Additive Manufacturing"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Additive Manufacturing
+            </p>
+        </a>
+    </div>
+    <div class="content__aside__item content__aside__item--last">
+        <a href="http://www.sys-uk.com/jigs-fixtures/" target="_blank" class="content__aside__item__link">
+            <img src="/innovation-showcase/assets/images/jigs-and-fixtures-icon.png" alt="Jigs and fixtures"
+            class="content__aside__item__image"/>
+            <p class="content__aside__item__text">
+                Jigs &amp; Fixtures
+            </p>
+        </a>
+    </div>
+</div>
+
 <?php
 include 'partials/footer.php';
 ?>
