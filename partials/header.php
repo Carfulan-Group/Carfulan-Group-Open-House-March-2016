@@ -4,6 +4,7 @@
 	<title><?php echo $title; ?> Open House | March 2016</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<meta name="description" content="<?php echo $meta; ?>">
+	<meta charset="UTF-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/innovation-showcase/assets/styles/main.css">
 	<!-- favicons -->

@@ -11,7 +11,9 @@ function renderPage ( page )
 
 		function loadContent (){
 			jQuery('.ajax-container').load(page + ".php .ajax");
-			fadeIn();
+			jQuery(document).ajaxComplete(function() {
+				fadeIn();
+			});
 		};
 
 		function fadeIn () {
