@@ -5,8 +5,7 @@ include 'partials/header.php';
 ?>
 
 	<div class="content__container">
-		<h1>Carfulan Group Open House offers precision, performance, perfected within your manufacturing
-			processes</h1>
+		<h1>The Carfulan Group Innovation showcase offers precision, performance and perfection for your manufacturing processes.</h1>
 
 		<p>The Carfulan group of companies - OGP UK, SYS Systems, Zoller UK, Vici Vision UK and EAM Limited
 			will be hosting an advanced manufacturing event, on the 15th and 16th March 2016.</p>
@@ -30,7 +29,7 @@ include 'partials/header.php';
 		<p>The event is free to visitors, and doors open across the two days at 9:00 am -
 			closing at 4:30 pm.</p>
 
-		<a class="signup__button" href="mailto:sarahg@carfulan.com?BCC=chrisf@carfulan.com&Subject=Innovation%20Showcase%20Signup&Body=Name%3A%20%0A%0ACompany%3A%20%0A%0AJob%20Title%3A%20%0A%0ALunch%3A%20Yes%20/%20No%20%28Delete%20Appropriate%29%20%0A%0ADay%3A%2015th%20March%20%20/%2016th%20March%20%20%28Delete%20Appropriate%29%0A%0ATelephone%20Number%3A%20%20%0A%0AAny%20other%20attendees%3A%20%0A">Register Here</a>
+		<a class="signup__button" href="mailto:sarahg@carfulan.com?BCC=chrisf@carfulan.com&Subject=Innovation%20Showcase%20Signup&Body=Name%3A%20%0A%0ACompany%3A%20%0A%0AJob%20Title%3A%20%0A%0AInterests%3A%20Metal%203D%20Printing%20/%20Plastic%203D%20Printing%20/%20Tool%20Presetting%20/%20Measurement%20Machines%20%28Delete%20Appropriate%29%0A%0ALunch%3A%20Yes%20/%20No%20%28Delete%20Appropriate%29%20%0A%0ADay%3A%2015th%20March%20/%2016th%20March%20%20%28Delete%20Appropriate%29%0A%0ATelephone%20Number%3A%20%20%0A%0AAny%20other%20attendees%3A%0A">Register Here</a>
 
 	</div>
 

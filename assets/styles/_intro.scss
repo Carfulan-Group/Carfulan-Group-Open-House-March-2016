@@ -23,12 +23,14 @@
 		}
 	}
 }
-
-@media screen and (max-width: 800px), screen and (max-height: 800px) {
+@media screen and (max-height: 800px) {
 	.intro__image {
 		max-height: 200px;
 		width: auto;
 	}
+}
+
+@media screen and (max-width: 650px) {
 
 	.intro__title {
 		margin-top: 20px;

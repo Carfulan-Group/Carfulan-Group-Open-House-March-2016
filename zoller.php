@@ -19,7 +19,7 @@ include 'partials/header.php';
         For the ability to check tools quickly, simply and extremely precisely, the Genuis will save you valuable time during work preparation and programming and ensures quality results, every time.
     </p>
 
-    <a class="signup__button" href="mailto:sarahg@carfulan.com?BCC=chrisf@carfulan.com&Subject=Innovation%20Showcase%20Signup&Body=Name%3A%20%0A%0ACompany%3A%20%0A%0AJob%20Title%3A%20%0A%0ALunch%3A%20Yes%20/%20No%20%28Delete%20Appropriate%29%20%0A%0ADay%3A%2015th%20March%20%20/%2016th%20March%20%20%28Delete%20Appropriate%29%0A%0ATelephone%20Number%3A%20%20%0A%0AAny%20other%20attendees%3A%20%0A">Register Here</a>
+    <a class="signup__button" href="mailto:sarahg@carfulan.com?BCC=chrisf@carfulan.com&Subject=Innovation%20Showcase%20Signup&Body=Name%3A%20%0A%0ACompany%3A%20%0A%0AJob%20Title%3A%20%0A%0AInterests%3A%20Metal%203D%20Printing%20/%20Plastic%203D%20Printing%20/%20Tool%20Presetting%20/%20Measurement%20Machines%20%28Delete%20Appropriate%29%0A%0ALunch%3A%20Yes%20/%20No%20%28Delete%20Appropriate%29%20%0A%0ADay%3A%2015th%20March%20/%2016th%20March%20%20%28Delete%20Appropriate%29%0A%0ATelephone%20Number%3A%20%20%0A%0AAny%20other%20attendees%3A%0A">Register Here</a>
 </div>
 
 <div class="content__aside">
