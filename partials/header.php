@@ -4,7 +4,7 @@
 	<title><?php echo $title; ?> Open House | March 2016</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<meta name="description" content="<?php echo $meta; ?>">
-	<meta charset="UTF-8"> 
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/innovation-showcase/assets/styles/main.css">
 	<!-- favicons -->
@@ -65,6 +65,7 @@
 					<span class="nav__list__item__link" onclick="renderPage('eam')">EAM</span>
 				</li>
 			</ul>
+			<span class="signup__button" onclick="openDirections()">Directions</span>
 		</header>
 
 <div class="ajax-container">

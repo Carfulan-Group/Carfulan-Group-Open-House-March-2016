@@ -16,3 +16,7 @@ require( [ "tweenmax" ] , function ()
 } );
 
 require( [ "navigation" ] );
+
+document.querySelector('.nav').onmouseover = function () {
+	require(["get-directions"]);
+}
